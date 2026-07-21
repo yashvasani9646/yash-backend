@@ -1,0 +1,16 @@
+{
+  "name": "practice-code",
+  "version": "1.0.0",
+  "description": "a backend in at yash code private",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "backend",
+    "yash"
+  ],
+  "author": "yash vasani",
+  "license": "ISC"
+}
