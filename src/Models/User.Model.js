@@ -29,7 +29,7 @@ const userSchema = new Schema(
     },
 
     avatar: {
-      type: String, // cloudunary url
+      type: String, // cloudinary url
       required: true,
     },
 
