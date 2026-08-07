@@ -1,8 +1,16 @@
 import express from "express";
 import cors from "cors";
 import cookieParser from "cookie-parser";
-
+console.log("✅ App.js Loaded");  
 const app = express();
+
+app.get("/", (req, res) => {
+  res.send("Home Route Working");
+});
+
+app.get("/hello", (req, res) => {
+  res.send("Hello");
+});
 
 app.use(
   cors({
